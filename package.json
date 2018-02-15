@@ -1,0 +1,29 @@
+{
+  "name": "lynxapi",
+  "version": "1.0.0",
+  "description": "Programming Test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malkaviano/lynxapi.git"
+  },
+  "author": "Rafael Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malkaviano/lynxapi/issues"
+  },
+  "homepage": "https://github.com/malkaviano/lynxapi#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "helmet": "^3.11.0",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.0"
+  }
+}

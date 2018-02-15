@@ -1,0 +1,15 @@
+<h1>Queries</h1>
+<p>Fill the textbox with the ID and select a query then click submit</p>
+
+<form action="/posts/queries" method="post">
+  <select name="query" id="query">
+    <option value="users">/users/id</option>
+    <option value="posts">/posts/id</option>
+    <option value="comments">/posts/id/comments</option>
+    <option value="commentsQS">/comments?postId=id</option>
+  </select>
+  
+  <input type="text" name="id" id="id" />
+
+  <input type="submit">
+</form>

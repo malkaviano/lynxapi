@@ -1,0 +1,12 @@
+{{#each collection}}
+  <div>
+    <h5>User Info</h5>
+    <p>
+      {{{json user}}}
+    </p>
+  </div>
+
+  {{#each posts}}
+    {{> _detail }}
+  {{/each}}
+{{/each}}
