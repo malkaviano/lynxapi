@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/malkaviano/lynxapi/badge)](https://www.codefactor.io/repository/github/malkaviano/lynxapi)
+
 # lynxapi
 Programming Test
 
